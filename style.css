@@ -1,0 +1,22 @@
+body{
+    background-color: aquamarine;
+}
+#score{
+    float: left;
+    margin-left: 20px;
+}
+p{
+    font-size: medium;
+}
+#timer{
+    float: right;
+    margin-right: 20px;
+}
+#sketch_to_be_drawn{
+    color:crimson;
+    
+}
+canvas{
+    background-color: white;
+    border-radius: 20px;
+}
