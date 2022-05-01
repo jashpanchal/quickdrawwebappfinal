@@ -16,7 +16,7 @@ function preload(){
 }
 function setup(){
     canvas = createCanvas(250,250);
-    canvas.position(525,250);
+    canvas.center();
     canvas.mouseReleased(classifyCanvas);
 }
 
