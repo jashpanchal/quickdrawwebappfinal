@@ -39,7 +39,7 @@ function classifyCanvas(){
 function check_sketch(){
 timer_counter++;   
 document.getElementById("timer").innerHTML = "Timer: " + timer_counter;
-if(timer_counter > 400){
+if(timer_counter > 1000){
     timer_counter = 0;
     timer_check = "completed";
 
